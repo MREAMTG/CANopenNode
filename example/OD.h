@@ -15,17 +15,17 @@
         File Version: 1
 
         Created:      23. 11. 2020 12:00:00
-        Created By:   
+        Created By:
         Modified:     17. 03. 2023 02:07:28
-        Modified By:  
+        Modified By:
 
     Device Info:
-        Vendor Name:  
-        Vendor ID:    
+        Vendor Name:
+        Vendor ID:
         Product Name: New Product
-        Product ID:   
+        Product ID:
 
-        Description:  
+        Description:
 *******************************************************************************/
 
 #ifndef OD_H
@@ -55,6 +55,9 @@
 #define OD_CNT_ARR_1010 4
 #define OD_CNT_ARR_1011 4
 #define OD_CNT_ARR_1016 8
+
+#include <cstdint>
+#include "301/CO_ODinterface.h"
 
 
 /*******************************************************************************
