@@ -42,8 +42,13 @@ CO_t* CO = NULL; /* CANopen object */
 uint8_t LED_red, LED_green;
 
 /* main ***********************************************************************/
+#ifdef FactoryEngine
+int
+example_main(void) {
+#else
 int
 main(void) {
+#endif
     CO_ReturnError_t err;
     CO_NMT_reset_cmd_t reset = CO_RESET_NOT;
     uint32_t heapMemoryUsed;
